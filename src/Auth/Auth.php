@@ -4,10 +4,16 @@ namespace Auth;
 /**
 * 
 */
-class Auth extends
+class Auth
 {
-    public static function getName
+    private static $name;
+    public static function getName()
     {
-        return 'admin';
+        return self::$name;
+    }
+
+    public static function setName($name)
+    {
+        self::$name = $name;
     }
 }

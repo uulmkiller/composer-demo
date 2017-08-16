@@ -8,6 +8,6 @@ class Auth extends
 {
     public static function getName
     {
-        return 'admin';
+        return '王伟伟';
     }
 }

@@ -9,7 +9,9 @@
             "email": "wangweiwei@huanqiu.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.6"
+    },
     "autoload": {
         "psr-4": {
             "Auth\\": "src/Auth"
